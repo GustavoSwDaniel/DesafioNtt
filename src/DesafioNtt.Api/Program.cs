@@ -1,12 +1,9 @@
 using DesafioNtt.Api.IoC;
 using DesafioNtt.Api.Extensions; 
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
-
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddCors();
 builder.Services.AddControllers();

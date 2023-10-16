@@ -17,5 +17,4 @@ namespace DesafioNtt.Infrastructure.Persistence
         public DbSet<Phone> Phone { get; set; }
         public DbSet<Establishment> Establishment { get; set; }
     }
-
 } 

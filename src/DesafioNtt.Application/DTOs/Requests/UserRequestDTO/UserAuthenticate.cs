@@ -4,7 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace DesafioNtt.Application.Requests.DTOs
+
+namespace DesafioNtt.Application.DTOs.Requests.UserRequestDTO
 {
     public class UserAuthenticate
     {

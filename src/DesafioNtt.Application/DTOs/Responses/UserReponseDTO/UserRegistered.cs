@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesafioNtt.Application.Responses.DTOs
+namespace DesafioNtt.Application.DTOs.Responses.UserReponseDTO
 {
     public class UserRegistered
     {

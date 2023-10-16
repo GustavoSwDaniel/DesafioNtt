@@ -1,13 +1,10 @@
 using System.Threading.Tasks;
-using DesafioNtt.Application.Responses.DTOs;
-using DesafioNtt.Application.Requests.DTOs;
-using DesafioNtt.Application.Interfaces.UseCase.Identity;
 using DesafioNtt.Identity.Configurations;
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using DesafioNtt.Application.DTOs.Requests.UserRequestDTO;
+using DesafioNtt.Application.DTOs.Responses.UserReponseDTO;
+using DesafioNtt.Identity.Interfaces.UseCase.Identity;
 
 
 namespace DesafioNtt.Identity.useCase.Users

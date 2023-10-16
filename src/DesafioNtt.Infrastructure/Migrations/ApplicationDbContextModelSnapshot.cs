@@ -34,6 +34,10 @@ namespace DesafioNtt.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Complement")
                         .IsRequired()
                         .HasColumnType("text");
@@ -79,14 +83,12 @@ namespace DesafioNtt.Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("EstablishmentPhoto")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("EstablishmentStartDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("EstablishmentThumbnail")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
@@ -94,6 +96,10 @@ namespace DesafioNtt.Infrastructure.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("text");
 
