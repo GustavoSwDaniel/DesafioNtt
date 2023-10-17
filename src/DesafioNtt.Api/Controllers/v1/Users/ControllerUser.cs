@@ -47,12 +47,4 @@ public class ControllerUser : ControllerBase
 
     }
 
-    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-    [HttpGet(Name = "teste")]
-    [Route("teste")]
-    [Authorize]
-    public IActionResult Teste(){
-        return Ok("TESTE CARALHO");
-    }
-
 }
