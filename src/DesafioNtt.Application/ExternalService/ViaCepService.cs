@@ -26,15 +26,13 @@ namespace DesafioNtt.Application.ExternalService
                     return viaCepResponse;
                 }
                 else
-                {
-                    // Handle the error here
+                }
                     Console.WriteLine($"Error: {response.StatusCode}");
                     return null;
                 }
             }
             catch (Exception ex)
-            {
-                // Handle the exception here
+            }
                 Console.WriteLine($"Exception: {ex.Message}");
                 return null;
             }
